@@ -3,7 +3,7 @@ import React from "react";
 import HeroBanner from "../components/HeroBanner";
 import Footer from "../components/Footer";
 import WhatDoiDo from "../components/WhatDoiDO";
-import Projects from "../components/projects";
+import Projects from "../components/Projects";
 
 class Home extends React.Component {
   render() {
