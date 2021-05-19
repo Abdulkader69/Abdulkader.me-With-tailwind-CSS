@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'KoHo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background-color: #1c1d25;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Banner Style Sheet */
+.ak_hero_banner_wrap {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+canvas#canvas {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 83px);
+    right: 0;
+    top: 0;
+}
+.ak_hero_banner_wrap svg {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+    pointer-events: none;
+}
+.ak_hero_banner_wrap svg#triangle1 {
+    top: 5%;
+    left: 20%;
+}
+.ak_hero_banner_wrap svg#semiCircle1 {
+    top: 20%;
+    left: 50%;
+}
+.ak_hero_banner_wrap svg#triangle2 {
+    right: 5%;
+    top: 45%;
+}
+.ak_hero_banner_wrap svg#triangle3 {
+    bottom: 20%;
+    left: 50%;
+}
+.ak_hero_banner_wrap svg#semiCircle2 {
+    bottom: 10%;
+    left: 15%;
+}
+.ak_hero_banner_wrap svg#triangle1 path {
+    stroke: rgba(255, 193, 15);
+}
+.ak_hero_banner_wrap svg path {
+    stroke: #f0106e;
+}
+.ak_hero_banner_wrap svg#triangle2 path {
+    stroke: rgba(255, 193, 15);
+}
+.ak_hero_banner_wrap svg#semiCircle2 path {
+    stroke: rgba(255, 193, 15);
+}
+p.text-effect {
+    position: relative;
+    width: 40px;
+    display: inline-block;
+    margin-left: 20px;
+}
+p.text-effect  span {
+    position: absolute;
+    transform: skew(4deg, 346deg);
+    color: rgba(255, 193, 15, 0.9);
+}
+p.text-effect  span:first-child {
+    color: #f0106e;
+    z-index: 9;
+    left: -5px;
+}
+/* Banner Style Sheet */
