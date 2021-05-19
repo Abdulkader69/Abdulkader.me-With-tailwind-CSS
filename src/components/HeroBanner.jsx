@@ -264,8 +264,8 @@ class HeroBanner extends Component {
             <path
               fill="none"
               stroke="#CF4981"
-              stroke-width="3"
-              stroke-miterlimit="10"
+              strokeWidth="3"
+              strokeMiterlimit="10"
               d="M12.837 3l5.12 8.868 5.12 8.868H2.597l5.12-8.868z"
             ></path>
           </svg>
@@ -274,8 +274,8 @@ class HeroBanner extends Component {
           <path
             fill="none"
             stroke="#CF4981"
-            stroke-width="3"
-            stroke-miterlimit="10"
+            strokeWidth="3"
+            strokeMiterlimit="10"
             d="M1.5 14.546C1.5 7.34 7.34 1.5 14.547 1.5c7.205 0 13.046 5.84 13.046 13.046"
           ></path>
         </svg>
@@ -289,8 +289,8 @@ class HeroBanner extends Component {
             <path
               fill="none"
               stroke="#CF4981"
-              stroke-width="3"
-              stroke-miterlimit="10"
+              strokeWidth="3"
+              strokeMiterlimit="10"
               d="M12.837 3l5.12 8.868 5.12 8.868H2.597l5.12-8.868z"
             ></path>
           </svg>
@@ -305,8 +305,8 @@ class HeroBanner extends Component {
             <path
               fill="none"
               stroke="#CF4981"
-              stroke-width="3"
-              stroke-miterlimit="10"
+              strokeWidth="3"
+              strokeMiterlimit="10"
               d="M12.837 3l5.12 8.868 5.12 8.868H2.597l5.12-8.868z"
             ></path>
           </svg>
@@ -315,8 +315,8 @@ class HeroBanner extends Component {
           <path
             fill="none"
             stroke="#CF4981"
-            stroke-width="3"
-            stroke-miterlimit="10"
+            strokeWidth="3"
+            strokeMiterlimit="10"
             d="M1.5 14.546C1.5 7.34 7.34 1.5 14.547 1.5c7.205 0 13.046 5.84 13.046 13.046"
           ></path>
         </svg>

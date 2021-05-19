@@ -1,29 +1,9 @@
-import React from "react";
-import Document, { Head, Html, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-// from https://github.com/zeit/next.js/edit/canary/examples/with-react-helmet/pages/_document.js
-export default class extends Document {
+class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const sheet = new ServerStyleSheet();
-    const originalRenderPage = ctx.renderPage;
-    try {
-      ctx.renderPage = () =>
-        originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
-        });
-      const initialProps = await Document.getInitialProps(ctx);
-      return {
-        ...initialProps,
-        styles: [
-          ...React.Children.toArray(initialProps.styles),
-          sheet.getStyleElement(),
-        ],
-      };
-    } finally {
-      sheet.seal();
-    }
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
   }
 
   render() {
@@ -125,3 +105,4 @@ export default class extends Document {
     );
   }
 }
+export default MyDocument
