@@ -86,7 +86,7 @@ class MyDocument extends Document {
             name="msapplication-TileImage"
             content="/favicons/ms-icon-144x144.png"
           />
-          <meta name="theme-color" content="#1ebcbb" />
+          <meta name="theme-color" content="#fff" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"

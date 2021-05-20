@@ -11,85 +11,118 @@ html {
 }
 body {
   margin: 0;
-  font-family: 'KoHo', sans-serif;
+  font-family: "KoHo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
   background-color: #1c1d25;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Teko', sans-serif;
-    font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
 }
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Banner Style Sheet */
 .ak_hero_banner_wrap {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 canvas#canvas {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 83px);
-    right: 0;
-    top: 0;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 83px);
+  right: 0;
+  top: 0;
 }
-.ak_hero_banner_wrap svg {
-    position: absolute;
-    bottom: 0;
-    opacity: 0.7;
-    pointer-events: none;
+.ak_hero_banner_wrap svg.shape {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.7;
+  pointer-events: none;
 }
 .ak_hero_banner_wrap svg#triangle1 {
-    top: 5%;
-    left: 20%;
+  top: 5%;
+  left: 20%;
 }
 .ak_hero_banner_wrap svg#semiCircle1 {
-    top: 20%;
-    left: 50%;
+  top: 20%;
+  left: 50%;
 }
 .ak_hero_banner_wrap svg#triangle2 {
-    right: 5%;
-    top: 45%;
+  right: 5%;
+  top: 45%;
 }
 .ak_hero_banner_wrap svg#triangle3 {
-    bottom: 20%;
-    left: 50%;
+  bottom: 20%;
+  left: 50%;
 }
 .ak_hero_banner_wrap svg#semiCircle2 {
-    bottom: 10%;
-    left: 15%;
+  bottom: 10%;
+  left: 15%;
 }
 .ak_hero_banner_wrap svg#triangle1 path {
-    stroke: rgba(255, 193, 15);
+  stroke: rgba(255, 193, 15);
 }
-.ak_hero_banner_wrap svg path {
-    stroke: #f0106e;
+.ak_hero_banner_wrap svg.shape path {
+  stroke: #f0106e;
 }
 .ak_hero_banner_wrap svg#triangle2 path {
-    stroke: rgba(255, 193, 15);
+  stroke: rgba(255, 193, 15);
 }
 .ak_hero_banner_wrap svg#semiCircle2 path {
-    stroke: rgba(255, 193, 15);
+  stroke: rgba(255, 193, 15);
 }
 p.text-effect {
-    position: relative;
-    width: 40px;
-    display: inline-block;
-    margin-left: 20px;
+  position: relative;
+  width: 40px;
+  display: inline-block;
+  margin-left: 20px;
 }
-p.text-effect  span {
-    position: absolute;
-    transform: skew(4deg, 346deg);
-    color: rgba(255, 193, 15, 0.9);
+p.text-effect span {
+  position: absolute;
+  transform: skew(4deg, 346deg);
+  color: rgba(255, 193, 15, 0.9);
 }
-p.text-effect  span:first-child {
-    color: #f0106e;
-    z-index: 9;
-    left: -5px;
+p.text-effect span:first-child {
+  color: #f0106e;
+  z-index: 9;
+  left: -5px;
 }
 /* Banner Style Sheet */
+/* modal popup styles */
+.image-modal-popup {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  animation: 500ms fadeIn;
+  display: none;
+  z-index: 9999;
+}
+.image-modal-popup::-webkit-scrollbar {
+  display: none;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
