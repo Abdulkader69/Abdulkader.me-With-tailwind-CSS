@@ -4,6 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import Footer from "../components/Footer";
 import WhatDoiDo from "../components/WhatDoiDO";
 import Projects from "../components/Projects";
+import HowIWork from '../components/HowIWork';
 
 class Home extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends React.Component {
         <HeroBanner />
         <WhatDoiDo />
         <Projects />
+        <HowIWork />
         <Footer />
       </div>
     );

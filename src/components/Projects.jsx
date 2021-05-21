@@ -21,7 +21,6 @@ class Projects extends Component {
   componentDidMount() {
     // all images inside the image modal content class
     const lightboxImages = document.querySelectorAll(".project-item img");
-    console.log(lightboxImages);
     // dynamically selects all elements inside modal popup
     const modalElement = (element) =>
       document.querySelector(`.image-modal-popup ${element}`);
@@ -54,7 +53,15 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="ak_projects_section">
+      <div className="ak_projects_section py-[100px]">
+        <div className="container">
+          <div className="flex item-center w-full">
+            <div className="ak-recent-works-headline ak-headline-wrap pb-[70px] w-full">
+                <h2 className="primary-headline text-[48px] max-w-[278px] tracking-[1.5px]">Recents <span>Works</span></h2>
+                <div className="ak-divider-inn relative mt-[10px] h-[2px]"></div>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="flex flex-wrap items-center max-w-[980px] m-auto">
             {projects.map((project) => {
