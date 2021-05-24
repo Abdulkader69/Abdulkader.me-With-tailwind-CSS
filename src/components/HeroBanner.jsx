@@ -329,14 +329,14 @@ class HeroBanner extends Component {
             d="M1.5 14.546C1.5 7.34 7.34 1.5 14.547 1.5c7.205 0 13.046 5.84 13.046 13.046"
           ></path>
         </svg>
-        <div className="section-1 pt-5 sm:pt-12 lg:pt-0 w-full">
+        <div className="section-1 lg:pt-0 w-full">
           <div className="container">
             <div className="flex flex-wrap items-center">
-              <div className="w-[40%]">
-                <h3 className="xl:text-[30px] lg:text-[25px] text-[20px] z-10 relative">
+              <div className="xl:w-[40%] lg:w-[50%] xsm:w-full lg:text-left lg:pt-0 md:pt-[70px] xsm:pt-[50px] lg:pb0 xsm:pb-[30px] xsm:text-center">
+                <h3 className="xl:text-[30px] lg:text-[25px] text-[20px] z-10 relative tracking-[1px] lg:pb-0 xsm:pb-[5px]">
                   Welcome To My Universe
                 </h3>
-                <h1 className="xl:text-[90px] lg:text-[90px] md:text-[80px] text-[52px] flex z-10 relative">
+                <h1 className="lg:text-[90px] md:text-[65px] text-[52px] flex z-10 relative lg:justify-start xsm:justify-center">
                   I'm{" "}
                   <p className="text-effect">
                     <span>A</span>
@@ -351,7 +351,7 @@ class HeroBanner extends Component {
                 </h1>
                 <TypeWritter />
               </div>
-              <div className="w-[60%]">
+              <div className="xl:w-[60%] lg:w-[50%] xsm:w-full lg:max-w-full sm:max-w-[550px] m-auto">
               <Lottie options={defaultOptions} />
               </div>
             </div>

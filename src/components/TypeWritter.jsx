@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="text-[32px] tracking-[1.5px]">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h1>
+      <h1 className="2xl:text-[32px] xl:text-[28px] lg:text-[26px] md:text-[20px] tracking-[1.5px]">{`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h1>
     </>
   );
 }

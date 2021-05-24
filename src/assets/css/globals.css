@@ -34,7 +34,6 @@ body::-webkit-scrollbar {
 .ak_hero_banner_wrap {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
 }
 canvas#canvas {
   position: absolute;
@@ -91,6 +90,7 @@ p.text-effect span {
   position: absolute;
   transform: skew(4deg, 346deg);
   color: rgba(255, 193, 15, 0.9);
+  left: 0;
 }
 p.text-effect span:first-child {
   color: #f0106e;
@@ -105,11 +105,9 @@ p.text-effect span:first-child {
   width: 100%;
 } */
 .primary-headline {
-  /* font-size: 48px; */
   line-height: 1.2;
   font-weight: 600;
   position: relative;
-  /* max-width: 340px; */
   margin: auto;
 }
 /* .ak-service-headline .primary-headline {
@@ -132,6 +130,12 @@ p.text-effect span:first-child {
 }
 .ak-recent-works-headline .primary-headline::before {
   width: 146px;
+}
+.ak-work-progress-headline .primary-headline::before {
+  width: 76px;
+}
+.ak-work-progress-headline .ak-divider-inn::after {
+  background-color: #fff;
 }
 .primary-headline span {
   color: rgba(240,16,110,1);
@@ -194,3 +198,53 @@ p.text-effect span:first-child {
     opacity: 1;
   }
 }
+
+/* Projects */
+.project-item {
+  width: calc(50% - 15px);
+}
+/* Projects */
+
+/* ============================================
+          Responsive Style Sheet
+============================================ */
+@media only screen and ( max-width: 979px ) {
+  p.text-effect {
+    width: 28px;
+  }
+}
+@media only screen and ( max-width: 767px ) {
+  p.text-effect {
+    width: 22px;
+  }
+  .ak_hero_banner_wrap svg#triangle1 {
+    left: 10px;
+    opacity: 0.2;
+  }
+  .ak_hero_banner_wrap svg#semiCircle1, 
+  .ak_hero_banner_wrap svg#triangle2 {
+    opacity: 0.2;
+  }
+  .primary-headline::before {
+    height: 3px;
+  }
+  .ak-service-headline .primary-headline::before {
+    width: 70px;
+  }
+  .ak-recent-works-headline .primary-headline::before {
+    width: 109px;
+  }
+  .ak-work-progress-headline .primary-headline::before {
+    width: 58px;
+  }
+}
+@media only screen and ( max-width: 479px ) {
+  /* Projects */
+  .project-item {
+    width: 100%;
+  }
+  /* Projects */
+}
+/* ============================================
+          Responsive Style Sheet
+============================================ */

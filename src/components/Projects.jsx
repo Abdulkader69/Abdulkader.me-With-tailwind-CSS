@@ -53,25 +53,25 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="ak_projects_section py-[100px]">
+      <div className="ak_projects_section lg:pb-[100px] md:pb-[70px] xsm:pb-[50px] md:pt-[50px] xsm:pt-[30px]">
         <div className="container">
           <div className="flex item-center w-full">
-            <div className="ak-recent-works-headline ak-headline-wrap pb-[70px] w-full">
-                <h2 className="primary-headline text-[48px] max-w-[278px] tracking-[1.5px]">Recents <span>Works</span></h2>
-                <div className="ak-divider-inn relative mt-[10px] h-[2px]"></div>
+            <div className="ak-recent-works-headline ak-headline-wrap lg:pb-[70px] md:pb-[50px] xsm:pb-[30px] w-full">
+                <h2 className="primary-headline md:text-[48px] xsm:text-[35px] md:max-w-[278px] xsm:max-w-[208px] tracking-[1.5px]">Recents <span>Works</span></h2>
+                <div className="ak-divider-inn relative md:mt-[10px] xsm:mt-0 h-[2px]"></div>
             </div>
           </div>
         </div>
         <div className="container">
-          <div className="flex flex-wrap items-center max-w-[980px] m-auto">
+          <div className="flex flex-wrap items-center max-w-[980px] m-auto justify-between">
             {projects.map((project) => {
               return (
                 <div
-                  className="xl:w-3/6 pb-[50%] overflow-hidden relative px-8 project-item"
+                  className="sm:pb-[50%] xsm:pb-[100%] sm:mb-0 xsm:mb-[20px] overflow-hidden relative project-item"
                   key={project.id}
                 >
                   <img
-                    className="absolute w-full h-[auto]"
+                    className="absolute w-full h-[auto] left-0 top-0"
                     src={project.icon}
                     alt=""
                   />

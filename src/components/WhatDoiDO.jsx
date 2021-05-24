@@ -7,14 +7,14 @@ class WhatDoiDo extends Component {
         <div className="container">
           <div className="flex item-center w-full">
             <div className="ak-service-headline ak-headline-wrap pb-[70px] w-full">
-                <h2 className="primary-headline text-[48px] max-w-[258px] tracking-[1.5px]">What Do I <span>Do?</span></h2>
-                <div className="ak-divider-inn relative mt-[10px] h-[2px]"></div>
+                <h2 className="primary-headline md:text-[48px] xsm:text-[35px] md:max-w-[258px] xsm:max-w-[195px] tracking-[1.5px]">What Do I <span>Do?</span></h2>
+                <div className="ak-divider-inn relative md:mt-[10px] xsm:mt-0 h-[2px]"></div>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="flex flex-wrap items-center">
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 version="1.1"
                 id="Layer_1"
@@ -22,8 +22,7 @@ class WhatDoiDo extends Component {
                 x="0px"
                 y="0px"
                 viewBox="0 0 512 512"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <path
                   style={{ fill: "#CEE8FA" }}
@@ -89,15 +88,15 @@ class WhatDoiDo extends Component {
                 <g></g>
                 <g></g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 WORDPRESS DEVELOPMENT
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Design a WordPress site from scratch and include functionality
                 as you want.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 version="1.1"
                 id="Layer_1_1_"
@@ -105,8 +104,7 @@ class WhatDoiDo extends Component {
                 x="0px"
                 y="0px"
                 viewBox="0 0 2000 2000"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <g>
                   <g>
@@ -173,19 +171,18 @@ class WhatDoiDo extends Component {
                   </g>
                 </g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 THEME CUSTOMIZATION
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Customize any theme or template to match users desire.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 viewBox="0 0 58 58"
                 xmlns="http://www.w3.org/2000/svg"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <path
                   d="m54.75 58h-51.5c-1.795 0-3.25-1.455-3.25-3.25v-43.75h58v43.75c0 1.795-1.455 3.25-3.25 3.25z"
@@ -281,20 +278,19 @@ class WhatDoiDo extends Component {
                   <path d="m49 23h-2c-.552 0-1-.448-1-1s.448-1 1-1h2c.552 0 1 .448 1 1s-.448 1-1 1z" />
                 </g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 THEME CREATION
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Create branding themes for companies and themes for marketplace
                 as well.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 viewBox="1 0 511.99998 511"
                 xmlns="http://www.w3.org/2000/svg"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <path
                   d="m512 44.457031v275.84375c0 24.523438-19.894531 44.417969-44.429688 44.417969h-423.152343c-24.535157 0-44.417969-19.894531-44.417969-44.417969v-275.84375c0-24.269531 19.675781-43.957031 43.949219-43.957031h424.09375c24.269531 0 43.957031 19.6875 43.957031 43.957031zm0 0"
@@ -377,20 +373,19 @@ class WhatDoiDo extends Component {
                   fill="#3c3f4d"
                 />
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 E-COMMERCE DEVELOPMENT
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Ecommerce website with lots of feature and bug free, secure
                 payment method.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 viewBox="0 -4 512.00067 512"
                 xmlns="http://www.w3.org/2000/svg"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <path fill="#f0106e" d="m430.375 283.078125 11.542969-12.957031 63.488281-71.289063c4.753906-5.339843 7.105469-12.398437 6.5-19.519531-.601562-7.121094-4.109375-13.683594-9.695312-18.144531-11.40625-8.472657-27.429688-6.667969-36.664063 4.132812l-56.738281 63.703125c-1.527344 1.71875-3.679688 2.761719-5.976563 2.894532-2.300781.132812-4.554687-.652344-6.273437-2.183594l-51.84375-46.175782-32.402344-28.851562c-1.71875-1.53125-3.976562-2.316406-6.273438-2.183594-2.300781.132813-4.449218 1.175782-5.980468 2.894532l-28.855469 32.394531-241.429687 271.082031c-9.664063 10.421875-9.605469 26.546875.128906 36.898438 5.070312 5.039062 11.992187 7.777343 19.136718 7.5625 7.144532-.214844 13.890626-3.355469 18.648438-8.691407l236.621094-265.734375c1.53125-1.722656 3.683594-2.761718 5.980468-2.894531 2.296876-.132813 4.554688.648437 6.273438 2.179687l51.84375 46.175782 12.964844 11.542968c14.316406 12.746094 36.253906 11.476563 49.003906-2.835937zm0 0" />
                 <path fill="#f0106e" d="m74.820312 175.539062c11.410157 8.472657 27.429688 6.667969 36.664063-4.132812l56.738281-63.703125c1.53125-1.71875 3.679688-2.761719 5.980469-2.894531 2.296875-.132813 4.554687.652344 6.273437 2.183594l58.324219 51.945312c1.71875 1.53125 3.976563 2.316406 6.273438 2.183594 2.296875-.132813 4.449219-1.175782 5.980469-2.894532l23.082031-25.921874c1.53125-1.71875 2.316406-3.976563 2.183593-6.273438-.132812-2.296875-1.175781-4.449219-2.894531-5.980469l-64.796875-57.707031-12.96875-11.550781c-14.3125-12.746094-36.253906-11.476563-49.003906 2.835937l-11.539062 12.964844-63.488282 71.28125c-4.757812 5.339844-7.109375 12.398438-6.503906 19.519531.605469 7.121094 4.109375 13.683594 9.695312 18.144531zm0 0" />
@@ -399,21 +394,20 @@ class WhatDoiDo extends Component {
                 <path fill="#f0106e" d="m8.679688 234.304688h69.421874c4.792969 0 8.679688-3.882813 8.679688-8.675782 0-4.792968-3.886719-8.679687-8.679688-8.679687h-69.421874c-4.792969 0-8.679688 3.886719-8.679688 8.679687 0 4.792969 3.886719 8.675782 8.679688 8.675782zm0 0" />
                 <path fill="#f0106e" d="m34.710938 260.339844c0 4.792968 3.886718 8.679687 8.679687 8.679687h69.421875c4.792969 0 8.679688-3.886719 8.679688-8.679687 0-4.792969-3.886719-8.679688-8.679688-8.679688h-69.421875c-4.792969 0-8.679687 3.886719-8.679687 8.679688zm0 0" />
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 SPEED OPTIMIZATION
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Optimize website speed and make loading speed A+ grade like any
                 premium websites.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 id="Layer_1"
                 viewBox="0 0 512 512"
                 xmlns="http://www.w3.org/2000/svg"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <g>
                   <g>
@@ -458,21 +452,20 @@ class WhatDoiDo extends Component {
                   </g>
                 </g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 WEB TEMPLATE DESIGN
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Create Web Template mockup for your website with Adobe Creative
                 Cloud Apps.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 id="Capa_1"
                 viewBox="0 0 495.639 495.639"
                 xmlns="http://www.w3.org/2000/svg"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <g>
                   <path fill="#f0106e" d="m111.383 311.449 25.71 25.71 43.907-44.335c-42.189-50.288-51.165-116.721-31.554-172.972l58.424 58.423c-.498 58.74 47.326 110.077 109.726 110.077 36.632-.001 69.123-18.047 89.064-45.712l-66.332-66.333-45.998 46.001-171.066-171.066v38.788h-30l.001-90h89.999v29.999l-38.787.001 149.853 149.853 45.998-46.002 80.878 80.877c13.264-37.921 5.193-82.514-26.018-113.726-39.988-39.986-102.799-42.548-145.7-8.454l-48.503-48.504c69.869-60.736 175.883-57.972 242.507 8.652 33.627 33.627 52.146 78.338 52.146 125.895 0 98.174-79.869 178.046-178.043 178.047-42.804 0-83.297-15.01-115.482-42.528l-43.808 44.233 25.814 25.815-111.38 111.383-72.739-72.739z" />
@@ -480,15 +473,15 @@ class WhatDoiDo extends Component {
                   <path fill="#f0106e" d="m165.119 465.609h180v29.999h-180z" />
                 </g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 SEO OPTIMIZATION
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Make your website more enrich with keyword base search, article
                 writing and link building.
               </p>
             </div>
-            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 text-center px-4 mb-[70px]">
+            <div className="xl:w-1/4 lg:w-2/6 md:w-3/6 xsm:w-full text-center px-4 lg:mb-[70px] md:mb-[50px] xsm:mb-[40px]">
               <svg
                 version="1.1"
                 id="Capa_1"
@@ -496,8 +489,7 @@ class WhatDoiDo extends Component {
                 x="0px"
                 y="0px"
                 viewBox="0 0 468.293 468.293"
-                height="90px"
-                className="m-[auto]"
+                className="m-[auto] xl:h-[90px] lg:h-[70px] xsm:h-[50px]"
               >
                 <path
                   style={{ fill: "#3A556A" }}
@@ -612,10 +604,10 @@ class WhatDoiDo extends Component {
                 <g></g>
                 <g></g>
               </svg>
-              <h3 className="text-[25px] mb-[10px] mt-[20px] uppercase">
+              <h3 className="md:text-[25px] xsm:text-[20px] md:mb-[10px] xsm:mb-[5px] mt-[20px] uppercase">
                 CUSTOM WEBSITES
               </h3>
-              <p className="text-[18px] leading-normal">
+              <p className="lg:text-[18px] md:text-[16px] xsm:text-[15px] leading-normal">
                 Create advanced website using custom php frameworks like
                 (laravel) or basic php website.
               </p>
