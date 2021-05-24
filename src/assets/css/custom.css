@@ -1,3 +1,10 @@
+.h-screen-flex {
+    height: calc(100vh - 83px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .ak_header_wrap.sticky_enabled {
     background-color: rgba(0,0,0,0.9);
 }
@@ -32,13 +39,7 @@
             Responsive Style Sheet
 ============================================ */
 @media only screen and ( min-width: 980px ) {
-    .h-screen-flex {
-        height: calc(100vh - 83px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
+    
 }
 @media only screen and ( max-width: 1280px ) {
     .main_nav_wrap ul li a {

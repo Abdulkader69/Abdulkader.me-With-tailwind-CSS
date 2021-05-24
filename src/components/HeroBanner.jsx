@@ -332,7 +332,7 @@ class HeroBanner extends Component {
         <div className="section-1 lg:pt-0 w-full">
           <div className="container">
             <div className="flex flex-wrap items-center">
-              <div className="xl:w-[40%] lg:w-[50%] xsm:w-full lg:text-left lg:pt-0 md:pt-[70px] xsm:pt-[50px] lg:pb0 xsm:pb-[30px] xsm:text-center">
+              <div className="xl:w-[40%] lg:w-[50%] xsm:w-full lg:text-left lg:pb0 xsm:pb-[30px] xsm:text-center">
                 <h3 className="xl:text-[30px] lg:text-[25px] text-[20px] z-10 relative tracking-[1px] lg:pb-0 xsm:pb-[5px]">
                   Welcome To My Universe
                 </h3>
