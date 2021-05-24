@@ -57,8 +57,10 @@ class Projects extends Component {
         <div className="container">
           <div className="flex item-center w-full">
             <div className="ak-recent-works-headline ak-headline-wrap lg:pb-[70px] md:pb-[50px] xsm:pb-[30px] w-full">
-                <h2 className="primary-headline md:text-[48px] xsm:text-[35px] md:max-w-[278px] xsm:max-w-[208px] tracking-[1.5px]">Recents <span>Works</span></h2>
-                <div className="ak-divider-inn relative md:mt-[10px] xsm:mt-0 h-[2px]"></div>
+              <h2 className="primary-headline md:text-[48px] xsm:text-[35px] md:max-w-[278px] xsm:max-w-[208px] tracking-[1.5px]">
+                Recents <span>Works</span>
+              </h2>
+              <div className="ak-divider-inn relative md:mt-[10px] xsm:mt-0 h-[2px]"></div>
             </div>
           </div>
         </div>
@@ -84,6 +86,40 @@ class Projects extends Component {
           </div>
         </div>
         <div className="image-modal-popup">
+          <div className="close-btn">
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 357 357"
+            >
+              <g>
+                <g id="close">
+                  <polygon
+                    points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
+			214.2,178.5 		"
+                  />
+                </g>
+              </g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+            </svg>
+          </div>
           <div className="wrapper">
             <img src="" alt="Image Modal" />
           </div>

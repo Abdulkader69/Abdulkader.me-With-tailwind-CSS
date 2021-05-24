@@ -178,14 +178,36 @@ p.text-effect span:first-child {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   animation: 500ms fadeIn;
   display: none;
   z-index: 9999;
 }
+.image-modal-popup img {
+  margin: auto;
+}
 .image-modal-popup::-webkit-scrollbar {
   display: none;
+}
+.image-modal-popup .close-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #f0106e;
+  border-radius: 0 0 0 45px;
+  cursor: pointer;
+  z-index: 9;
+}
+.image-modal-popup .close-btn svg {
+  width: 20px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.image-modal-popup .close-btn svg polygon {
+  fill: #fff;
 }
 @keyframes fadeIn {
   0% {
