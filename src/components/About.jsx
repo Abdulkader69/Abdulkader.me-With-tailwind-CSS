@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Draggable from 'react-draggable';
+import Draggable from "react-draggable";
 
 class Projects extends Component {
   render() {
@@ -17,22 +17,22 @@ class Projects extends Component {
         </div> */}
         <div className="container">
           <div className="flex flex-wrap items-center max-w-[980px] m-auto justify-between">
-          <Draggable
-        // axis="x"
-        // handle=".handle"
-        // defaultPosition={{x: 0, y: 0}}
-        // position={null}
-        // grid={[25, 25]}
-        // scale={1}
-        // onStart={this.handleStart}
-        // onDrag={this.handleDrag}
-        // onStop={this.handleStop}
-        >
-        <div>
-          <div className="handle">Drag from here</div>
-          <div>This readme is really dragging on...</div>
-        </div>
-      </Draggable>
+            <Draggable
+              // axis="x"
+              handle=".handle"
+              defaultPosition={{x: 0, y: 0}}
+              // position={null}
+              // grid={[25, 25]}
+              // scale={1}
+              // onStart={this.handleStart}
+              // onDrag={this.handleDrag}
+              // onStop={this.handleStop}
+            >
+              <div className="rounded-sm border-2 border-gray-500 border-solid p-5">
+                <div className="handle">Drag from here</div>
+                <div>This readme is really dragging on...</div>
+              </div>
+            </Draggable>
           </div>
         </div>
       </div>
