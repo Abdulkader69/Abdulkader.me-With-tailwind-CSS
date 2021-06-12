@@ -226,6 +226,132 @@ p.text-effect span:first-child {
   width: calc(50% - 15px);
 }
 /* Projects */
+/* About */
+.fact-head p {
+  position: relative;
+}
+.fact-head p::before {
+  position: absolute;
+  content: "<";
+  left: -15px;
+  font-size: 18px;
+  top: -2px;
+}
+.fact-head p::after {
+  position: absolute;
+  content: "/>";
+  right: -25px;
+  font-size: 18px;
+  top: -2px;
+}
+.fact .fact-content h2 {
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+}
+.skill-bar p, .skill-bar span {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.progress {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 10px 0px 25px;
+  height: 8px;
+}
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: rgba(19,117,124);
+  border-radius: 50px;
+  position: relative;
+  transition: all 1.5s;
+}
+.progress-bar span {
+  position: absolute;
+  top: -25px;
+  right: 0%;
+}
+/* About */
+
+@keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
 
 /* ============================================
           Responsive Style Sheet
@@ -258,6 +384,9 @@ p.text-effect span:first-child {
   }
   .ak-work-progress-headline .primary-headline::before {
     width: 58px;
+  }
+  .ak-about-headline .primary-headline::before {
+    width: 78px;
   }
 }
 @media only screen and ( max-width: 479px ) {

@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <div className="ak-home">
         <HeroBanner />
-        {/* <About /> */}
+        <About />
         <WhatDoiDo />
         <Projects />
         <HowIWork />
