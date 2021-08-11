@@ -42,7 +42,7 @@ class About extends Component {
         setInterval(function add() {
           if (current < parseInt(values[index])) {
             current++;
-            progress.innerHTML = `<span>${current}%`;
+            // progress.innerHTML = `<span>${current}%`;
           }
         }, interval);
       });
@@ -65,79 +65,79 @@ class About extends Component {
           <div className="flex mx-[-15px] md:flex-row flex-wrap-reverse">
           <div className="md:w-1/2 w-full px-[15px]">
 
-              <div class="skill-bar">
+              <div className="skill-bar">
                 <p>HTML</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>90%</span>
                   </div>
                 </div>
 
                 <p>CSS</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>90%</span>
                   </div>
                 </div>
 
                 <p>JavaScript</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>70%</span>
                   </div>
                 </div>
                 <p>jQuery</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>70%</span>
                   </div>
                 </div>
 
                 <p>React JS</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>70%</span>
                   </div>
                 </div>
                 <p>Next JS</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>60%</span>
                   </div>
                 </div>
                 <p>Wordpress</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>80%</span>
                   </div>
                 </div>
                 <p>Tailwind Css</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>90%</span>
                   </div>
                 </div>
                 <p>MY SQL</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>40%</span>
                   </div>
                 </div>
                 <p>PHP</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>50%</span>
                   </div>
                 </div>
                 <p>Adobe Creative Apps</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>80%</span>
                   </div>
                 </div>
                 <p>Laravel</p>
-                <div class="progress">
-                  <div class="progress-bar">
+                <div className="progress">
+                  <div className="progress-bar">
                     <span>20%</span>
                   </div>
                 </div>

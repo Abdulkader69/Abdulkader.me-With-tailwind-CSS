@@ -135,7 +135,7 @@ p.text-effect span:first-child {
   width: 76px;
 }
 .ak-work-progress-headline .ak-divider-inn::after {
-  background-color: #fff;
+  background-color: #1c1d25;
 }
 .primary-headline span {
   color: rgba(240,16,110,1);
@@ -274,6 +274,12 @@ p.text-effect span:first-child {
   right: 0%;
 }
 /* About */
+
+.work-progress-icon.lottie-1 svg g g:first-child rect,
+.work-progress-icon.lottie-3 svg g g:first-child g path,
+.work-progress-icon.lottie-4 svg g g:first-child rect {
+  fill: transparent
+}
 
 @keyframes Color{
   0%{
