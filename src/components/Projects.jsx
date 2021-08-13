@@ -3,16 +3,24 @@ import React, { Component } from "react";
 const projects = [
   {
     id: "1",
-    icon: "/../images/Projects/The-High-Line-Models.jpg",
+    icon: "/../images/Projects/The-High-Line-Models-min.png",
     title: "High Line Models",
-    cat: "Divi",
+    cat: [
+      {name: 'Featured'},
+      {name: 'Divi'},
+    ],
+    description: "Website of TheHighLineModels is an Instagram Photography site. For Modern Models.",
     website: "https://thehighlinemodels.com/",
   },
   {
     id: "2",
-    icon: "/../images/Projects/istheypay.png",
-    title: "iSTheyPay",
-    cat: "Custom Theme",
+    icon: "/../images/Projects/istheypay.jpg",
+    title: "isTheyPay",
+    cat: [
+      {name: 'Featured'},
+      {name: 'Divi'},
+    ],
+    description: "Website of isTheyPay is Review Payout site. Where you can get money by processing simple steps.",
     website: "https://istheypay.com/",
   },
 ];
@@ -20,7 +28,7 @@ const projects = [
 class Projects extends Component {
   componentDidMount() {
     // all images inside the image modal content class
-    const lightboxImages = document.querySelectorAll(".project-item img");
+    const lightboxImages = document.querySelectorAll(".project-item-scroll img");
     // dynamically selects all elements inside modal popup
     const modalElement = (element) =>
       document.querySelector(`.image-modal-popup ${element}`);
@@ -65,21 +73,25 @@ class Projects extends Component {
           </div>
         </div>
         <div className="container">
-          <div className="flex flex-wrap items-center max-w-[980px] m-auto justify-between">
+          <div className="flex flex-wrap items-center m-auto justify-between projects-wrapper">
             {projects.map((project) => {
               return (
-                <div
-                  className="sm:pb-[50%] xsm:pb-[100%] sm:mb-0 xsm:mb-[20px] overflow-hidden relative project-item"
-                  key={project.id}
-                >
-                  <img
-                    className="absolute w-full h-[auto] left-0 top-0"
-                    src={project.icon}
-                    alt=""
-                  />
-                  <h3 className="text-[25px] my-[10px] uppercase absolute z-20">
-                    {project.title}
-                  </h3>
+                <div className="project-item-wrap flex flex-wrap w-full mb-10" key={project.id}>
+                  <div
+                    className="w-[80%] h-[300px] sm:mb-0 xsm:mb-[20px] overflow-hidden relative project-item-scroll"
+                  >
+                    <img
+                      className="w-full h-[auto] left-0 top-0 overflow-hidden object-cover"
+                      src={project.icon}
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-[20%] content pl-[20px]">
+                    <h3 className="text-[25px] my-[10px] uppercase z-20">
+                      <sup className="text-[#f0106e]">{project.id}</sup>
+                      {project.title}
+                    </h3>
+                  </div>
                 </div>
               );
             })}
