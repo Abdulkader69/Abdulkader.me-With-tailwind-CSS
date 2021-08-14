@@ -380,6 +380,9 @@ p.text-effect span:first-child {
   p.text-effect {
     width: 28px;
   }
+  .projects-wrapper .project-item-wrap:nth-child(even) {
+    flex-flow: column;
+  }
 }
 @media only screen and ( max-width: 767px ) {
   p.text-effect {

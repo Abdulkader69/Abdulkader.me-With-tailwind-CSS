@@ -7,7 +7,8 @@ const projects = [
     title: "High Line Models",
     cat: [
       {name: 'Featured'},
-      {name: 'Divi'},
+      {name: 'Divi Theme'}, 
+      {name: 'WordPress'}, 
     ],
     description: "Website of TheHighLineModels is an Instagram Photography site. For Modern Models.",
     website: "https://thehighlinemodels.com/",
@@ -18,7 +19,8 @@ const projects = [
     title: "isTheyPay",
     cat: [
       {name: 'Featured'},
-      {name: 'Divi'},
+      {name: 'Custom Theme'},
+      {name: 'WordPress'}, 
     ],
     description: "Website of isTheyPay is Review Payout site. Where you can get money by processing simple steps.",
     website: "https://istheypay.com/",
@@ -78,7 +80,7 @@ class Projects extends Component {
               return (
                 <div className="project-item-wrap flex flex-wrap w-full mb-10" key={project.id}>
                   <div
-                    className="w-[80%] h-[300px] sm:mb-0 xsm:mb-[20px] overflow-hidden relative project-item-scroll"
+                    className="xl:w-[80%] lg:w-[70%] w-full xl:h-[400px] lg:h-[300px] h-[250px] sm:mb-0 xsm:mb-[20px] overflow-hidden relative project-item-scroll"
                   >
                     <img
                       className="w-full h-[auto] left-0 top-0 overflow-hidden object-cover"
@@ -86,11 +88,20 @@ class Projects extends Component {
                       alt=""
                     />
                   </div>
-                  <div className="w-[20%] content pl-[20px]">
-                    <h3 className="text-[25px] my-[10px] uppercase z-20">
+                  <div className="xl:w-[20%] lg:w-[30%] w-full content lg:pl-[20px] pt-7">
+                    <h3 className="text-[35px] uppercase mb-5">
                       <sup className="text-[#f0106e]">{project.id}</sup>
                       {project.title}
                     </h3>
+                    <p className="mb-5">{project.description}</p>
+                    <div className="cat pl-3">
+                      {project.cat.map(cat =>{
+                        return(
+                          <li key={cat.name} className="text-[13px] list-none py-1">{cat.name}</li>
+                        );
+                      })}
+                    </div>
+                    <a className="animate-button inline-block transition-all border-[2px] border-[#f0106e] hover:bg-[#f0106e] text-[#f0106e] hover:text-white rounded-[5px] px-[30px] py-[8px] uppercase font-bold mt-7" target="_blank" href={project.website}>Website Link</a>
                   </div>
                 </div>
               );

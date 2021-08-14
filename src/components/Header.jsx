@@ -27,7 +27,7 @@ class Header extends Component {
             <div className="w-5/6">
               <div className="main_nav_wrap">
                 <ul>
-                  <li><a className="contact-btn transition-all border-2 border-[#f0106e] hover:bg-[#f0106e] text-[#f0106e] hover:text-white rounded-[5px] px-[30px] py-[6px]" href="mailto:abdulkader.69k@gmail.com">Contact</a></li>
+                  <li><a className="contact-btn transition-all border-2 border-[#f0106e] hover:bg-[#f0106e] text-[#f0106e] hover:text-white rounded-[5px] px-[30px] py-[6px]" href="mailto:kader.69k@gmail.com">Contact</a></li>
                 </ul>
               </div>
             </div>
