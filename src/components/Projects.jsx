@@ -6,7 +6,6 @@ const projects = [
     icon: "/../images/Projects/The-High-Line-Models-min.png",
     title: "High Line Models",
     cat: [
-      {name: 'Featured'},
       {name: 'Divi Theme'}, 
       {name: 'WordPress'}, 
     ],
@@ -18,12 +17,77 @@ const projects = [
     icon: "/../images/Projects/istheypay.jpg",
     title: "isTheyPay",
     cat: [
-      {name: 'Featured'},
       {name: 'Custom Theme'},
       {name: 'WordPress'}, 
     ],
     description: "Website of isTheyPay is Review Payout site. Where you can get money by processing simple steps.",
     website: "https://istheypay.com/",
+  },
+  {
+    id: "3",
+    icon: "/../images/Projects/gravity.png",
+    title: "Gravity",
+    cat: [
+      {name: 'Next JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of Gravity is Gravity Finance. Where Trade, Earn Yield and join some of the most exciting projects coming to Polygon through our Launchpad.",
+    website: "https://gravity-tau.vercel.app/",
+  },
+  {
+    id: "4",
+    icon: "/../images/Projects/universe-v2.png",
+    title: "Universe V2",
+    cat: [
+      {name: 'React JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of Universe V2 (Rise of The Robots) is NFTs Landing Page with React JS and Tailwind CSS.",
+    website: "https://universev2.com/",
+  },
+  {
+    id: "5",
+    icon: "/../images/Projects/castle.png",
+    title: "Castle",
+    cat: [
+      {name: 'Next JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of Castle is The worlds first NFT puzzle created from an amazing hand drawn piece of art.",
+    website: "https://gravity-2nd.vercel.app/",
+  },
+  {
+    id: "6",
+    icon: "/../images/Projects/hatchy.png",
+    title: "Hatchy Pocket",
+    cat: [
+      {name: 'React JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of Hatchy Pocket is The Digital collections on avalanche network.",
+    website: "https://hatchy-ui.vercel.app/",
+  },
+  {
+    id: "7",
+    icon: "/../images/Projects/harmonyswap.png",
+    title: "HarmonySwap",
+    cat: [
+      {name: 'React JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of HarmonySwap is The NFTs website login page.",
+    website: "https://harmonyswap.vercel.app/",
+  },
+  {
+    id: "8",
+    icon: "/../images/Projects/WazirXNFT.png",
+    title: "WazirX NFTs",
+    cat: [
+      {name: 'React JS'},
+      {name: 'Tailwind CSS'}, 
+    ],
+    description: "Website of WazirX NFTs is The NFTs website where you can create collect, timeless artwork.",
+    website: "https://wazirx-nfts.vercel.app/",
   },
 ];
 
